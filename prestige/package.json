@@ -1,0 +1,19 @@
+{
+  "name": "@prestige/prestige",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "env NODE_OPTIONS=--experimental-vm-modules jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "dependencies": {
+    "eventemitter3": "^4.0.7"
+  }
+}
